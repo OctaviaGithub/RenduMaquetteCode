@@ -1,0 +1,180 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    width: 100%;
+    background-color: rgb(225, 190, 129);
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.nav-item {
+    text-decoration: none;
+    color: rgb(225, 190, 129);
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+}
+
+a.nav-link:hover {
+    color: rgb(74, 134, 37);
+}
+
+.yellow-line {
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: rgb(225,190,129);
+}
+
+.green-line {
+    width: 50%;
+    height: 4px;
+    background-color: rgb(92,141,99);
+}
+
+a.nav-link {
+    color: rgb(225, 190, 129);
+}
+
+a.menu-button{
+    text-align: center;
+    color: rgb(255,255,255);
+    font-size:30px;
+    text-decoration:none;
+    margin-left: 10%;
+    
+}
+
+a.button-more-blogs{
+    color: rgb(92,141,99);
+    text-decoration: none;
+}
+
+img.card-retour{
+    margin-top: 75%;
+}
+
+div.e-books {
+    background-image: url('../images/alimentation.jpg'); 
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+  }
+
+  div.retours {
+    background-image: url('../images/retours.jpg'); 
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+  }
+
+  div.blogs {
+    background-image: url('../images/blogs.jpg'); 
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+  }
+
+  .card-row{
+    border-radius: 20px;
+  }
+
+  a.a-button-card{
+    margin-left: 10%;
+    margin-bottom: 5%;
+    color: rgb(92,141,99);
+    text-decoration: none;
+  }
+
+  button.button-e-books{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 10%;
+  }
+
+  div.top-vente{
+        background-color: red;
+        border-top-left-radius: 10%;
+        border-bottom-right-radius: 10%;
+        color: white;
+        margin-bottom: 5%;
+        width: 100%;
+  }
+  div.top-nouveauté{
+    background-color: rgb(	114, 187, 255);
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    color: white;
+    margin-bottom: 5%;
+    width: 100%;
+}
+div.top-tendance{
+    background-color: rgb(	255, 184, 77);
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    color: white;
+    margin-bottom: 5%;
+    width: 100%;
+}
+
+  #scrollBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: rgb(92,141,99);
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10%;
+    transition-property: border-radius , background;
+    transition-duration: 1s;
+  }
+  
+  #scrollBtn:hover {
+    background-color: rgb(74, 134, 37);
+    border-radius: 30%;
+  }
+
+  footer {
+    background-color: #6E955C;
+    color: white;
+    padding: 20px 0;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .social-icons img {
+    width: 30px;
+    margin-right: 10px;
+  }
+  
+  .logo {
+    width: 100px;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .col-md-4 {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .col-md-4 h4 {
+    margin-bottom: 20px;
+  }

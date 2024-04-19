@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <div class="container">
+      <img src="../images/logo_esprit_libre2.png" alt="Esprit Libre Logo" style="width:200px; height:auto;" class="d-block mx-auto">
+      <div class="yellow-line"></div>
+      <br> <br>
+    </div>
+
+    <button onclick="scrollToTop()" id="scrollBtn" title="Retour en haut">&uarr;</button>
+
+    <nav>
+      <ul class="nav justify-content-center" style="margin-top: -5%;">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">A propos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" >E-books</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" >Connexion</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="container">
+      <img src="../images/first_home_image.jpg" alt="Logo HTML w3" class="rounded img-fluid">
+  </div>
+  <br><br><br>
+  <div class="row">
+    <div class="col-sm-4 mb-3">
+      <div class="card blogs">
+        <div class="card-body">
+          <a href="#" class="menu-button">Blogs</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4 mb-3">
+      <div class="card retours">
+        <div class="card-body">
+          <a href="#" class="menu-button">Retours</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4 mb-3">
+      <div class="card e-books">
+        <div class="card-body">
+          <a href="#" class="menu-button">E-Books</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br><br>
+  <h1>Les derniers Blogs</h1>
+  <a href="#" class="button-more-blogs">Voir plus de Blogs</a>
+  <div class="green-line"></div>
+
+<br><br>
+
+<div class="row">
+  <div class="col-sm-4 mb-4 md card-row">
+    <div class="card" style="width: 300px">
+      <img src="../images/rock.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Le premier titre H2</h5>
+        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lectus pellentesque magna euismod mattis. Fusce elementum nisi sed tortor ultricies varius</p>
+      </div>
+      <a href="#" class="list-group-item card-link a-button-card">Lire l'article</a>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">Publié le 16 Mars 2024</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="col-sm-4 mb-4 card-row">
+    <div class="card" style="width: 300px">
+      <img src="../images/gros_muscles.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Le premier titre H2</h5>
+        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lectus pellentesque magna euismod mattis. Fusce elementum nisi sed tortor ultricies varius</p>
+      </div>
+      <a href="#" class="list-group-item card-link a-button-card">Lire l'article</a>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">Publié le 16 Mars 2024</li>
+      </ul>
+    </div>
+  </div>
+  
+  <div class="col-sm-4 mb-4 card-row">
+    <div class="card" style="width: 300px;">
+      <img src="../images/shamppoing.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Le premier titre H2</h5>
+        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lectus pellentesque magna euismod mattis. Fusce elementum nisi sed tortor ultricies varius</p>
+      </div>
+      <a href="#" class="list-group-item card-link a-button-card">Lire l'article</a>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">Publié le 16 Mars 2024</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<br><br>
+  <h1>Les retours d'utilisateurs</h1>
+  <a href="#" class="button-more-blogs">Voir plus de retours</a>
+  <div class="green-line"></div>
+<br><br>
+
+
+  <div class="container">
+    <div class="row">
+      <div class=" mb-4">
+        <div class="card">
+          <div class="row no-gutters">
+            <div class="col-md-8">
+              <div class="card-body">
+                <h3 class="card-title">Marie-Sophie, 35 ans</h3>
+                <div class="green-line"></div>
+                <p class="card-text">Consultatrice vidéo</p>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lectus pellentesque magna euismod mattis. Fusce elementum nisi sed tortor ultricies varius... <a href="#" class="a-button-card">Voir plus</a></p>
+              </div>
+            </div>
+            <div class="col-md-4 d-flex align-items-center justify-content-end">
+              <img src="../images/marie-sophie.jpg" class="card-img " alt="Image 1" style="width: 80px; height: 80px;">
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class=" mb-4">
+        <div class="card">
+          <div class="row no-gutters">
+            <div class="col-md-8">
+              <div class="card-body">
+                <h3 class="card-title">Patrick, 27 ans</h3>
+                <div class="green-line"></div>
+                <p class="card-text">Coach Nutrition</p>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lectus pellentesque magna euismod mattis. Fusce elementum nisi sed tortor ultricies varius... <a href="#" class="a-button-card">Voir plus</a></p>
+              </div>
+            </div>
+            <div class="col-md-4 d-flex align-items-center justify-content-end">
+              <img src="../images/patrick.jpg" class="card-img " alt="Image 2" style="width: 80px; height: 80px;">
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class=" mb-4">
+        <div class="card">
+          <div class="row no-gutters">
+            <div class="col-md-8">
+              <div class="card-body">
+                <h3 class="card-title">Angélina, 41 ans</h3>
+                <div class="green-line"></div>
+                <p class="card-text">Utilisatrice d'Esprit Libre</p>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lectus pellentesque magna euismod mattis. Fusce elementum nisi sed tortor ultricies varius... <a href="#" class="a-button-card">Voir plus</a></p>
+              </div>
+            </div>
+            <div class="col-md-4 d-flex align-items-center justify-content-end">
+              <img src="../images/angélina.jpg" class="card-img " alt="Image 3" style="width: 80px; height: 80px;">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+  <br><br>
+  <div class="container">
+    <div class="row">
+      <div class="col-9">
+        <h1>E-Books</h1>
+        <div class="green-line"></div>
+      </div>
+      <div class="col-3">
+        <!-- Barre de recherche -->
+        <div class="input-group">
+          <input id="search-input" type="text" class="form-control" placeholder="Rechercher...">
+          <div class="input-group-append">
+            <button id="clear-search" class="btn btn-outline-secondary" type="button">
+              <img src="../images/search esprit libre.png" alt="Clear Search" width="20" height="20">
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br><br>
+  
+  <div class="row">
+    <div class="col-sm-4 mb-4 card-row">
+      <div class="card" style="width: 300px">
+        <div class="top-nouveauté"><img src="../images/nouveautés.jpg" alt="Clear Search" width="20" height="20">Nouveautés</div>
+        <img src="../images/rock.jpg" class="card-img-top" alt="...">
+        <div class="card-body d-flex flex-column justify-content-center">
+          <h5 class="card-title text-center">Booster sa Testostérone</h5>
+          <p class="card-text text-center">Vin Zeno <br> Parution : 2024</p>
+        </div>
+        <button type="button" class="btn btn-success button-e-books">En savoir plus</button>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Ajouté le 16 Janvier 2024</li>
+        </ul>
+      </div>
+    </div>
+  
+    <div class="col-sm-4 mb-4 card-row">
+      <div class="card" style="width: 300px">
+        <div class="top-tendance"><img src="../images/nouveautés.jpg" alt="Clear Search" width="20" height="20">Tendance</div>
+        <img src="../images/gros_muscles.jpg" class="card-img-top" alt="...">
+        <div class="card-body d-flex flex-column justify-content-center">
+          <h5 class="card-title text-center">Votre avenir sur ordonnance</h5>
+          <p class="card-text text-center">Frédéric Saldmann <br> Parution : 2022</p>
+        </div>
+        <button type="button" class="btn btn-success button-e-books">En savoir plus</button>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Ajouté le 31 Octobre 2022</li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="col-sm-4 mb-4 card-row">
+      <div class="card" style="width: 300px;">
+        <div class="top-vente"><img src="../images/nouveautés.jpg" alt="Clear Search" width="20" height="20">Top Vente</div>
+        <img src="../images/shamppoing.jpg" class="card-img-top" alt="...">
+        <div class="card-body d-flex flex-column justify-content-center">
+          <h5 class="card-title text-center">L'art subtil de s'en foutre</h5>
+          <p class="card-text text-center">Mark Manson <br> Parution : 2021</p>
+        </div>
+        <button type="button" class="btn btn-success button-e-books">En savoir plus</button>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Ajouté le 7 F&vrier 2021</li>
+        </ul>
+      </div>
+    </div>
+
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h4>Nous retrouver</h4>
+            <div class="social-icons">
+              <a href="#"><img src="../images/linkedin_logo.png" alt="LinkedIn"></a>
+              <a href="#"><img src="../images/Instagram_icon.png" alt="Instagram"></a>
+              <a href="#"><img src="../images/facebook_icon.png" alt="Facebook"></a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <img src="../images/logo_esprit_libre2.png" alt="Logo_esprit_libre" class="logo">
+          </div>
+          <div class="col-md-4">
+            <p>Mentions Légales</p>
+            <p>2024 - Copyright</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
+
+<script>
+  document.getElementById('clear-search').addEventListener('click', function() {
+    document.getElementById('search-input').value = '';
+  });
+
+  window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("scrollBtn").style.display = "block";
+  } else {
+    document.getElementById("scrollBtn").style.display = "none";
+  }
+}
+
+function scrollToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
